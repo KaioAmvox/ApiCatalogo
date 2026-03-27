@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65D1E42F-A7DA-4B73-BB72-194405D34DE8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65D1E42F-A7DA-4B73-BB72-194405D34DE8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiCatalago\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiCatalago\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-26T17:08:03.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
