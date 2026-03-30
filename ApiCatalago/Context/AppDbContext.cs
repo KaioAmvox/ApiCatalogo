@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ApiCatalago.Context;
 
-public class AppDbContext : Microsoft.EntityFrameworkCore.DbContext
+public class AppDbContext : DbContext
 {
 
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
