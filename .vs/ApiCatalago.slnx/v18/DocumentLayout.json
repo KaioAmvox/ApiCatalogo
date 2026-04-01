@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\migrations\\20260331182630_migracaoinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\migrations\\20260331182630_migracaoinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\migrations\\20260401171235_populaprodutosv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\migrations\\20260401171235_populaprodutosv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\apicatalago.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\apicatalago.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\migrations\\20260401170235_populaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\migrations\\20260401170235_populaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260331182630_MigracaoInicial.cs",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Migrations\\20260331182630_MigracaoInicial.cs",
-              "RelativeDocumentMoniker": "ApiCatalago\\Migrations\\20260331182630_MigracaoInicial.cs",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Migrations\\20260331182630_MigracaoInicial.cs",
-              "RelativeToolTip": "ApiCatalago\\Migrations\\20260331182630_MigracaoInicial.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCwAAABFAAAAAAAAAA==",
+              "Title": "20260401171235_PopulaProdutosV2.cs",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Migrations\\20260401171235_PopulaProdutosV2.cs",
+              "RelativeDocumentMoniker": "ApiCatalago\\Migrations\\20260401171235_PopulaProdutosV2.cs",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Migrations\\20260401171235_PopulaProdutosV2.cs",
+              "RelativeToolTip": "ApiCatalago\\Migrations\\20260401171235_PopulaProdutosV2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T18:45:43.035Z",
+              "WhenOpened": "2026-04-01T17:12:46.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApiCatalago",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\ApiCatalago.csproj",
-              "RelativeDocumentMoniker": "ApiCatalago\\ApiCatalago.csproj",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\ApiCatalago.csproj",
-              "RelativeToolTip": "ApiCatalago\\ApiCatalago.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-31T18:24:13.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "ApiCatalago\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Models\\Produto.cs",
-              "RelativeToolTip": "ApiCatalago\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Title": "20260401170235_PopulaProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Migrations\\20260401170235_PopulaProdutos.cs",
+              "RelativeDocumentMoniker": "ApiCatalago\\Migrations\\20260401170235_PopulaProdutos.cs",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Migrations\\20260401170235_PopulaProdutos.cs",
+              "RelativeToolTip": "ApiCatalago\\Migrations\\20260401170235_PopulaProdutos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:51:09.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "ApiCatalago\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Models\\Categoria.cs",
-              "RelativeToolTip": "ApiCatalago\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:48:08.808Z",
+              "WhenOpened": "2026-04-01T17:02:44.589Z",
               "EditorCaption": ""
             }
           ]
