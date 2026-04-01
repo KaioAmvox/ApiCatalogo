@@ -106,3 +106,4 @@ C:\Users\kaiosantos\source\repos\ApiCatalago\ApiCatalago\obj\Debug\net8.0\refint
 C:\Users\kaiosantos\source\repos\ApiCatalago\ApiCatalago\obj\Debug\net8.0\ApiCatalago.pdb
 C:\Users\kaiosantos\source\repos\ApiCatalago\ApiCatalago\obj\Debug\net8.0\ApiCatalago.genruntimeconfig.cache
 C:\Users\kaiosantos\source\repos\ApiCatalago\ApiCatalago\obj\Debug\net8.0\ref\ApiCatalago.dll
+C:\Users\kaiosantos\source\repos\ApiCatalago\ApiCatalago\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
