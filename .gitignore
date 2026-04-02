@@ -2,3 +2,4 @@
 /.vs
 /.vs/ApiCatalago.slnx/DesignTimeBuild
 *.vsidx
+ApiCatalago/bin/Debug/net8.0/ApiCatalago.deps.json
