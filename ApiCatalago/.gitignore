@@ -1,16 +1,17 @@
 # Visual Studio
 .vs/
-*.user
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # Build
 bin/
 obj/
 
 # Cache
+*.dbcache
 *.cache
-*.log
 
 # Outros
-*.dll
-*.exe
+*.log
