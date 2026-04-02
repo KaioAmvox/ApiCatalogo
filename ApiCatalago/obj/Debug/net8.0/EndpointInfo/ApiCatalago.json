@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/ProdutosControllers": {
+    "/Produtos": {
       "get": {
         "tags": [
-          "ProdutosControllers"
+          "Produtos"
         ],
         "responses": {
           "200": {
@@ -41,13 +41,43 @@
             }
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Produtos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Produto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Produto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Produto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
-    "/ProdutosControllers/{id}": {
+    "/Produtos/{id}": {
       "get": {
         "tags": [
-          "ProdutosControllers"
+          "Produtos"
         ],
+        "operationId": "ObterProduto",
         "parameters": [
           {
             "name": "id",

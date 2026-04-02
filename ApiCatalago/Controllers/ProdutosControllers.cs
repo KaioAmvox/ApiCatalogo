@@ -7,12 +7,12 @@ namespace ApiCatalago.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class ProdutosControllers : ControllerBase
+    public class Produtos : ControllerBase
     {
 
         private readonly AppDbContext _context;
 
-        public ProdutosControllers(AppDbContext context)
+        public Produtos(AppDbContext context)
         {
             _context = context;
         }
@@ -28,7 +28,7 @@ namespace ApiCatalago.Controllers
             return produtos;
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:int}", Name="ObterProduto")]
         public ActionResult<Produto> Get(int id)
         {
             var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
@@ -37,6 +37,19 @@ namespace ApiCatalago.Controllers
                 return NotFound("Produto não encontrado...");
             }
             return produto;
+        }
+
+        [HttpPost]
+        public ActionResult Post([FromBody] Produto produto)
+        {
+            if (produto is null)
+                return BadRequest();
+
+            _context.Produtos.Add(produto);
+            _context.SaveChanges();
+
+            return new CreatedAtRouteResult("ObterProduto",
+                new {id = produto.ProdutoId}, produto);
         }
 
     }
