@@ -1,7 +1,16 @@
+# Visual Studio
 .vs/
-.vs\
-bin/
-bin\
-obj/
 *.user
 *.suo
+
+# Build
+bin/
+obj/
+
+# Cache
+*.cache
+*.log
+
+# Outros
+*.dll
+*.exe
