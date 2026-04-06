@@ -21,15 +21,15 @@ namespace ApiCatalago.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Produto>> Get()
         {
-            var produtos =_context.Produtos.ToList();
-            if(produtos is null)
+            var produtos = _context.Produtos.AsNoTracking().ToList();
+            if (produtos is null)
             {
                 return NotFound("Produtos não encontrados...");
             }
             return produtos;
         }
 
-        [HttpGet("{id:int}", Name="ObterProduto")]
+        [HttpGet("{id:int}", Name = "ObterProduto")]
         public ActionResult<Produto> Get(int id)
         {
             var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
@@ -50,13 +50,13 @@ namespace ApiCatalago.Controllers
             _context.SaveChanges();
 
             return new CreatedAtRouteResult("ObterProduto",
-                new {id = produto.ProdutoId}, produto);
+                new { id = produto.ProdutoId }, produto);
         }
 
         [HttpPut("{id:int}")]
         public ActionResult Put(int id, [FromBody] Produto produto)
         {
-            if(id != produto.ProdutoId)
+            if (id != produto.ProdutoId)
             {
                 return BadRequest();
             }

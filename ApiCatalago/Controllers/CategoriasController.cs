@@ -30,12 +30,24 @@ namespace ApiCatalago.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Categoria>> Get()
         {
-            var categorias = _context.Categorias.ToList();
-            if (categorias is null)
+
+            try
             {
-                return NotFound("Categorias não encontradas...");
+
+                var categorias = _context.Categorias.AsNoTracking().ToList();
+                if (categorias is null)
+                {
+                    return NotFound($"Categria não encontrada...");
+                }
+
+                return Ok(categorias);
             }
-            return Ok(categorias);
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao processar a solicitação...");
+            }
+
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
@@ -44,7 +56,7 @@ namespace ApiCatalago.Controllers
             var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
             if (categoria is null)
             {
-                return NotFound("Categoria não encontrada...");
+                return NotFound($"Categoria id={id} não encontrada...");
             }
             return Ok(categoria);
         }
@@ -73,7 +85,7 @@ namespace ApiCatalago.Controllers
             {
                 return NotFound("Categoria não encontrada...");
             }
-           
+
             _context.Entry(categoria).State = EntityState.Modified;
             _context.SaveChanges();
             return Ok(categoria);
@@ -92,5 +104,5 @@ namespace ApiCatalago.Controllers
             return Ok(categoria);
         }
     }
-        
+
 }
