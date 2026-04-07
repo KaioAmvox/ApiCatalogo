@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\controllers\\produtoscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\controllers\\produtoscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiCatalago\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "ApiCatalago\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:54:54.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProdutosControllers.cs",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Controllers\\ProdutosControllers.cs",
+              "RelativeDocumentMoniker": "ApiCatalago\\Controllers\\ProdutosControllers.cs",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Controllers\\ProdutosControllers.cs",
+              "RelativeToolTip": "ApiCatalago\\Controllers\\ProdutosControllers.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T18:14:20.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "ApiCatalago\\Models\\Produto.cs",
               "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Models\\Produto.cs",
               "RelativeToolTip": "ApiCatalago\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T18:38:21.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T18:38:21.579Z"
             },
             {
               "$type": "Document",
@@ -41,7 +74,7 @@
               "RelativeDocumentMoniker": "ApiCatalago\\Controllers\\CategoriasController.cs",
               "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "ApiCatalago\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T16:57:59.142Z",
               "EditorCaption": ""
