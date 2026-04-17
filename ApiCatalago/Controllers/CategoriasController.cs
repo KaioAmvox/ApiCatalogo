@@ -1,4 +1,5 @@
 ﻿using ApiCatalago.Context;
+using ApiCatalago.Filters;
 using ApiCatalago.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,15 +11,19 @@ namespace ApiCatalago.Controllers
     public class Categorias : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly ILogger<Categorias> _logger;
 
-        public Categorias(AppDbContext context)
+        public Categorias(AppDbContext context, ILogger<Categorias> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         [HttpGet("produtos")]
         public ActionResult<IEnumerable<Categoria>> GetCategoriasProdutos()
         {
+            _logger.LogInformation("============== GET Api/categorias/produtos ================");
+
             var categorias = _context.Categorias.Include(c => c.Produtos).ToList();
             if (categorias is null)
             {
@@ -28,12 +33,13 @@ namespace ApiCatalago.Controllers
         }
 
         [HttpGet]
+        [ServiceFilter(typeof(ApiloggingFilter))]
         public ActionResult<IEnumerable<Categoria>> Get()
         {
 
             try
             {
-
+                _logger.LogInformation("============== GET Api/categorias ================");
                 var categorias = _context.Categorias.AsNoTracking().ToList();
                 if (categorias is null)
                 {
@@ -54,8 +60,12 @@ namespace ApiCatalago.Controllers
         public ActionResult<Categoria> Get(int id)
         {
             var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
+
+            _logger.LogInformation($"============== GET Api/categorias/id = {id} ================");
+
             if (categoria is null)
             {
+                _logger.LogInformation($"============== GET Api/categorias/id = {id} NOT FOUND ================");
                 return NotFound($"Categoria id={id} não encontrada...");
             }
             return Ok(categoria);
@@ -97,6 +107,7 @@ namespace ApiCatalago.Controllers
             var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
             if (categoria is null)
             {
+                _logger.LogWarning($"Categoria id={id} não encontrada para exclusão...");
                 return NotFound("Categoria não encontrada...");
             }
             _context.Categorias.Remove(categoria);

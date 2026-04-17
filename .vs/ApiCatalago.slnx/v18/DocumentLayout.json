@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\validations\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\validations\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\logging\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\logging\\customerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\apicatalago.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\apicatalago.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\logging\\customloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\logging\\customloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\controllers\\produtoscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\controllers\\produtoscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\logging\\customloggerproviderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\logging\\customloggerproviderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|c:\\users\\kaiosantos\\source\\repos\\apicatalago\\apicatalago\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFCD6F03-EBF8-0660-38F0-BD71AD7A62E8}|ApiCatalago\\ApiCatalago.csproj|solutionrelative:apicatalago\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,69 +30,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrimeiraLetraMaiusculaAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
-              "RelativeDocumentMoniker": "ApiCatalago\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
-              "RelativeToolTip": "ApiCatalago\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Program.cs",
+              "RelativeDocumentMoniker": "ApiCatalago\\Program.cs",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Program.cs",
+              "RelativeToolTip": "ApiCatalago\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T18:59:45Z",
+              "WhenOpened": "2026-04-17T17:29:48.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerLogger.cs",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Logging\\CustomerLogger.cs",
+              "RelativeDocumentMoniker": "ApiCatalago\\Logging\\CustomerLogger.cs",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Logging\\CustomerLogger.cs",
+              "RelativeToolTip": "ApiCatalago\\Logging\\CustomerLogger.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:41:08.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApiCatalago",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\ApiCatalago.csproj",
-              "RelativeDocumentMoniker": "ApiCatalago\\ApiCatalago.csproj",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\ApiCatalago.csproj",
-              "RelativeToolTip": "ApiCatalago\\ApiCatalago.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-13T18:58:05.083Z",
+              "Title": "CustomLoggerProvider.cs",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Logging\\CustomLoggerProvider.cs",
+              "RelativeDocumentMoniker": "ApiCatalago\\Logging\\CustomLoggerProvider.cs",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Logging\\CustomLoggerProvider.cs",
+              "RelativeToolTip": "ApiCatalago\\Logging\\CustomLoggerProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:40:40.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ApiCatalago\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "ApiCatalago\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T16:54:54.299Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProdutosControllers.cs",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Controllers\\ProdutosControllers.cs",
-              "RelativeDocumentMoniker": "ApiCatalago\\Controllers\\ProdutosControllers.cs",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Controllers\\ProdutosControllers.cs",
-              "RelativeToolTip": "ApiCatalago\\Controllers\\ProdutosControllers.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowDQAAAANAAAAAAAAAA==",
+              "Title": "CustomLoggerProviderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Logging\\CustomLoggerProviderConfiguration.cs",
+              "RelativeDocumentMoniker": "ApiCatalago\\Logging\\CustomLoggerProviderConfiguration.cs",
+              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Logging\\CustomLoggerProviderConfiguration.cs",
+              "RelativeToolTip": "ApiCatalago\\Logging\\CustomLoggerProviderConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T18:14:20.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "ApiCatalago\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Models\\Produto.cs",
-              "RelativeToolTip": "ApiCatalago\\Models\\Produto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T18:38:21.579Z",
+              "WhenOpened": "2026-04-17T15:40:04.292Z",
               "EditorCaption": ""
             },
             {
@@ -107,9 +96,10 @@
               "RelativeDocumentMoniker": "ApiCatalago\\Controllers\\CategoriasController.cs",
               "ToolTip": "C:\\Users\\kaiosantos\\source\\repos\\ApiCatalago\\ApiCatalago\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "ApiCatalago\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEMAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T16:57:59.142Z"
+              "WhenOpened": "2026-04-15T19:43:48.654Z",
+              "EditorCaption": ""
             }
           ]
         }
