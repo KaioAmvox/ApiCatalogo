@@ -58,12 +58,15 @@ namespace ApiCatalago.Controllers
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
         public ActionResult<Categoria> Get(int id)
+
+
+
         {
             var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
 
-            _logger.LogInformation($"============== GET Api/categorias/id = {id} ================");
-
             if (categoria is null)
+
+
             {
                 _logger.LogInformation($"============== GET Api/categorias/id = {id} NOT FOUND ================");
                 return NotFound($"Categoria id={id} não encontrada...");
@@ -76,6 +79,7 @@ namespace ApiCatalago.Controllers
         {
             if (categoria is null)
             {
+                _logger.LogWarning($"Dados inválidos...");
                 return BadRequest("Categoria é nula...");
             }
             _context.Categorias.Add(categoria);
@@ -88,6 +92,7 @@ namespace ApiCatalago.Controllers
         {
             if (id != categoria.CategoriaId)
             {
+
                 return BadRequest("Id da categoria não corresponde...");
             }
             var categoriaBanco = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
@@ -104,6 +109,7 @@ namespace ApiCatalago.Controllers
         [HttpDelete("{id:int}")]
         public ActionResult<Categoria> Delete(int id)
         {
+
             var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
             if (categoria is null)
             {
