@@ -1,5 +1,23 @@
-/.vs
-/.vs
+# Build
+bin/
+obj/
+
+# Cache / NuGet
+*.cache
+*.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+project.assets.json
+project.nuget.cache
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
 /.vs/ApiCatalago.slnx/DesignTimeBuild
 *.vsidx
 ApiCatalago/bin/Debug/net8.0/ApiCatalago.deps.json
+*.slnx
