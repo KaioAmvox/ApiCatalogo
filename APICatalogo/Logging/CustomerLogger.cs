@@ -31,18 +31,14 @@ public class CustomerLogger : ILogger
 
     private void EscreverTextoNoArquivo(string mensagem)
     {
-        string caminhoArquivoLog = @"d:\dados\log\Macoratti_Log.txt";
+        string pastaLog = Path.Combine(AppContext.BaseDirectory, "logs");
+        Directory.CreateDirectory(pastaLog);
+
+        string caminhoArquivoLog = Path.Combine(pastaLog, "Macoratti_Log.txt");
+
         using (StreamWriter streamWriter = new StreamWriter(caminhoArquivoLog, true))
         {
-            try
-            {
-                streamWriter.WriteLine(mensagem);
-                streamWriter.Close();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            streamWriter.WriteLine(mensagem);
         }
     }
 }
